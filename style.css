@@ -158,13 +158,14 @@ h3 {
 }
 
 .photo-placeholder {
-  width:60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
+  height: 120px;
+  border: 1px dashed var(--line);
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  background: #f2f0e9;
+  margin-bottom: 1.2rem;
 }
 
 .section {
