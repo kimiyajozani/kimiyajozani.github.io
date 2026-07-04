@@ -257,22 +257,26 @@ h3 {
 
   .nav-links {
     gap: 0.65rem;
-  }
+.hero {
+  min-height: 78vh;
+  grid-template-columns: 1.3fr 0.85fr;
+  gap: 3.5rem;
+}
+
 .hero-card {
-  max-width: 400px;
-  justify-self: center;
-  text-align: left;
+  max-width: 380px;
+  padding: 1.5rem;
 }
 
 .hero-card .profile-photo {
-  width: 200px !important;
-  height: 200px !important;
-  max-width: 200px !important;
-  max-height: 200px !important;
+  width: 240px !important;
+  height: 240px !important;
+  max-width: 240px !important;
+  max-height: 240px !important;
   object-fit: cover !important;
   object-position: center !important;
   border-radius: 50% !important;
   display: block !important;
-  margin: 0 auto 1.2rem auto !important;
+  margin: 0 auto 1.3rem auto !important;
 }
 }
