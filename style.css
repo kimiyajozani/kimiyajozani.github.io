@@ -158,8 +158,8 @@ h3 {
 }
 
 .photo-placeholder {
-  width: 120px;
-  height: 120px;
+  width:60px;
+  height: 60px;
   border-radius: 50%;
   display: flex;
   align-items: center;
